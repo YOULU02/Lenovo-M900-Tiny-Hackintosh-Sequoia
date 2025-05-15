@@ -32,22 +32,22 @@
 
 <br />
 
-### 使用方法：
+## 使用方法：
 
 ###### （建议在安装macOS前先安装Windows）
-#### 一、安装macOS
+### 一、安装macOS
 
-##### 1、参照[此视频](https://www.youtube.com/watch?v=u2KaYy_93QI)进行BIOS设置
+#### 1、参照[此视频](https://www.youtube.com/watch?v=u2KaYy_93QI)进行BIOS设置
 
-##### 2、使用[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)更改序列号
+#### 2、使用[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)更改序列号
 
-##### 3、参照[OpenCore的使用手册](https://sumingyd.github.io/OpenCore-Install-Guide/installer-guide/)，刷入镜像，制作启动盘。
+#### 3、参照[OpenCore的使用手册](https://sumingyd.github.io/OpenCore-Install-Guide/installer-guide/)，刷入镜像，制作启动盘。
 
-##### 4、使用本EFI文件引导安装macOS
+#### 4、使用本EFI文件引导安装macOS
 
 <br />
 
-#### 二、完善macOS，驱动蓝牙、解锁CFG Lock
+### 二、完善macOS，驱动蓝牙、解锁CFG Lock
 
 #### 1、使用[OCLP-Mod](https://github.com/laobamac/OCLP-Mod/releases/tag/2.6.4)给Intel网卡打补丁
 
@@ -55,9 +55,10 @@
 
 #### 2、使用[Modifed GRUB Shell](https://github.com/datasone/grub-mod-setup_var/releases)解锁CFG Lock
 
-- ##### 此机型[FWKTBFA](https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m900/downloads/ds105487-flash-bios-update-intel-b150-for-thinkcentre-m700-tiny-thinkcentre-m800-m900-m900x-tiny)版本BIOS的CFG Lock偏移量为**0x197**。
+- ##### [FWKTBFA](https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m900/downloads/ds105487-flash-bios-update-intel-b150-for-thinkcentre-m700-tiny-thinkcentre-m800-m900-m900x-tiny)版本BIOS的CFG Lock偏移量为**0x197**。
+ > 0x3C4B9 				One Of: CFG lock, VarStoreInfo (VarOffset/VarName): 0x197, VarStore: 0x1, QuestionId: 0x87D, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 25 01 26 01 7D 08 01 00 97 01 10 10 00 01 00}
 
-- ###### 具体可以参照这个教程：https://hujewelz.github.io/cko3zrglu0019h7s6drqzgue3/
+- ##### 具体可以参照这个教程：https://hujewelz.github.io/cko3zrglu0019h7s6drqzgue3/
 
 <br />
 
