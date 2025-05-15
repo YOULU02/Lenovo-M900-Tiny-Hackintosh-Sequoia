@@ -25,7 +25,7 @@
 - ##### CPU: Intel i5-6500T @ 2.5GHz
 - ##### GPU: Intel HD Graphics 530 （核显）
 - ##### 内存：8GB DDR4 @ 2133MHz
-- ##### BIOS 版本：官方[FWKTBFA](https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m900/downloads/ds105487-flash-bios-update-intel-b150-for-thinkcentre-m700-tiny-thinkcentre-m800-m900-m900x-tiny)
+- ##### BIOS版本：官方2022年7月，[FWKTBFA](https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m900/downloads/ds105487-flash-bios-update-intel-b150-for-thinkcentre-m700-tiny-thinkcentre-m800-m900-m900x-tiny)
 - ##### 网卡：Intel Dual Band Wireless-AC 8260
 - ##### 其他：HDMI拓展模块 (实际也是从DP信号转到HDMI信号)
 - ##### M.2 NVME SSD 京造麒麟512GB
@@ -55,10 +55,10 @@
 
 #### 2、使用[Modifed GRUB Shell](https://github.com/datasone/grub-mod-setup_var/releases)解锁CFG Lock
 
-- ##### [FWKTBFA](https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m900/downloads/ds105487-flash-bios-update-intel-b150-for-thinkcentre-m700-tiny-thinkcentre-m800-m900-m900x-tiny)版本BIOS的CFG Lock偏移量为**0x197**。
- > 0x3C4B9 				One Of: CFG lock, VarStoreInfo (VarOffset/VarName): 0x197, VarStore: 0x1, QuestionId: 0x87D, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 25 01 26 01 7D 08 01 00 97 01 10 10 00 01 00}
-
 - ##### 具体可以参照这个教程：https://hujewelz.github.io/cko3zrglu0019h7s6drqzgue3/
+- ##### [FWKTBFA](https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m900/downloads/ds105487-flash-bios-update-intel-b150-for-thinkcentre-m700-tiny-thinkcentre-m800-m900-m900x-tiny)版本BIOS的CFG Lock偏移量为 **0x197** 。
+ > 0x3C4B9 				One Of: CFG lock, VarStoreInfo (VarOffset/VarName): **0x197**, VarStore: 0x1, QuestionId: 0x87D, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 25 01 26 01 7D 08 01 00 97 01 10 10 00 01 00}
+
 
 <br />
 
