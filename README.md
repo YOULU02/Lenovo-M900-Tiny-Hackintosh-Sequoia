@@ -1,5 +1,5 @@
 # Lenovo-M900-Tiny-Hackintosh-Sequoia
-## 联想 ThinkCentre M900/ M700/ NEC6 macOS15 Sequoia 完美黑苹果
+## 联想 ThinkCentre M900 macOS15 Sequoia 完美黑苹果
 
 
 
@@ -8,7 +8,7 @@
 
 <br />
 
-### 适用机型：联想M900、M700、NEC6。
+### 适用机型：联想M900。M700、NEC6也都可以用（未经过测试）。
 
 <br />
 
