@@ -1,4 +1,4 @@
-# YOULU02-YOULU02-Lenovo-M900-Tiny-Hackintosh-Sequoia
+# YOULU02-Lenovo-M900-Tiny-Hackintosh-Sequoia
 ## 联想 ThinkCentre M900/ M700/ NEC6 macOS15 Sequoia 完美黑苹果
 
 
